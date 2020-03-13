@@ -1,4 +1,4 @@
-# dynviewer
+# dynViewer
 
 Generate svg preview for [Dynamo](https://dynamobim.org/) 2.x .dyn files.
 
@@ -14,7 +14,7 @@ Prerequisites:
 - node js 10+
 
 ```
-npm install -g infeeeee/dynviewer
+npm install -g infeeeee/dynViewer
 ```
 
 ## Usage
@@ -39,8 +39,8 @@ Prerequisites:
 - git
 
 ```
-git clone https://github.com/infeeeee/dynviewer.git
-cd dynviewer
+git clone https://github.com/infeeeee/dynViewer.git
+cd dynViewer
 npm install
 npm start
 ```
