@@ -1,0 +1,24 @@
+{
+  "name": "dynviewer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "dynviewer": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "dynamo",
+    "dyn"
+  ],
+  "author": "infeeeee",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "dyn2svg": "github:infeeeee/dyn2svg",
+    "sanitize-filename": "^1.6.3"
+  }
+}
