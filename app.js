@@ -12,6 +12,8 @@ const sanitize = require("sanitize-filename")
 
 require('dyn2svg')
 
+// Uncomment this line for dyn2svg development
+// require('../dyn2svg')
 
 /* -------------------------------------------------------------------------- */
 /*                                  Commander                                 */
