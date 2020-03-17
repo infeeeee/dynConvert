@@ -1,4 +1,4 @@
-# dynViewer
+# dynConvert
 
 Generate svg preview for [Dynamo](https://dynamobim.org/) 2.x .dyn files.
 
@@ -14,7 +14,7 @@ Prerequisites:
 - node js 10+
 
 ```
-npm install -g infeeeee/dynViewer
+npm install -g infeeeee/dynConvert
 ```
 
 ## Usage
@@ -22,13 +22,10 @@ npm install -g infeeeee/dynViewer
 Currently it can only convert .dyn files to svg:
 
 ```
-dynviewer path/to/graph.dyn
+dynconvert path/to/graph.dyn
 ```
 
 It will place an svg file next to the dyn file. Open with your browser or with an svg viewer.
-
-
-More to come!
 
 ## Development
 
@@ -39,13 +36,11 @@ Prerequisites:
 - git
 
 ```
-git clone https://github.com/infeeeee/dynViewer.git
-cd dynViewer
+git clone https://github.com/infeeeee/dynConvert.git
+cd dynConvert
 npm install
 npm start
 ```
-
-
 
 ## License
 

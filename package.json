@@ -1,10 +1,10 @@
 {
-  "name": "dynviewer",
-  "version": "0.0.1",
-  "description": "",
+  "name": "dynconvert",
+  "version": "0.0.2",
+  "description": "Generate svg preview for dynamo scripts",
   "main": "app.js",
   "bin": {
-    "dynviewer": "app.js"
+    "dynconvert": "app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,7 @@
     "dyn"
   ],
   "author": "infeeeee",
+  "repository": "https://github.com/infeeeee/dynConvert",
   "license": "MIT",
   "dependencies": {
     "commander": "^4.1.1",
